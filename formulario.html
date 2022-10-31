@@ -10,32 +10,32 @@
             iMODELO
         </h1>
         
-        <h3>
+        <h2>
             Formulario de registro
-        </h3>
+        </h2>
         
     </header>
 
 <form>
-    
-<h3>
-    ¿QUIEN ERES?
-</h3>
+    <fieldset>
+<legend>
+    <mark>¿QUIEN ERES?</mark> 
+</legend>
 <P>
     Nombre <br>
-    <input type="text"> 
+    <input id="barras" type="text"> 
 </P>
 <P>
     Apellido <br>
-    <input type="text"> 
+    <input id="barras" type="text"> 
 </P>
 <P>
     Correo Electronico <br>
-    <input type="text"> 
+    <input id="barras" type="text"> 
 </P>
 <p>
     Fecha de nacimiento <br>
-    <select id="Día">
+    <select  id="Día">
         <option>Día</option>
         <option>11</option>
         <option>22</option>
@@ -56,28 +56,68 @@
         <option>2002</option>
         <option>2003</option>
     </select>
-    <br>
-    <h3>
-        ¿DE DONDE ERES?
-    </h3>
-    <p>
+</p>
+</fieldset>
+<br>
+<fieldset>
+<legend>
+        <mark>¿DE DONDE ERES?</mark>
+</legend>
+<p>
        Ciudad <br>
-       <input type="text"> 
-    </p>
-    <p>
+       <input id="barras" type="text"> 
+</p>
+<p>
         Código postal <br>
-        <input type="text"> 
-    </p>
-    <p>
+        <input id="barras" type="text"> 
+</p>
+<p>
         País <br>
         <select id="pais">
-            <option>país</option>
+            <option>País</option>
             <option>Jamaica</option>
             <option>Japon</option>
             <option>Estados unidos</option>
             <option>Perú</option>
-    </p>
+            </select>
 </p>
+</fieldset>
+<br>
+<fieldset>
+<legend>
+    <mark>¿CÓMO QUIERES INICIAR SESIÓN</mark>
+</legend>
+<p>
+    Nombre de usuario <br>
+    <input id="barras" type="text">      
+</p>
+<p>
+    Contraseña <br>
+    <input id="barras" type="text">
+</p>
+<p>
+    Vuelve a escribir la Contraseña <br>
+    <input id="barras" type="text">
+</p>
+</fieldset>
+<br>
+<fieldset>
+<legend>
+    <legend><mark>CONDICIONES DE REGISTRO</mark></legend>
+</legend>
+<P>
+    Deseo recibir información de la universidad <br>
+    <input type="radio"> Una vez al día 
+    <input type="radio"> Una vez a la semana
+    <input type="radio"> Una vez al año
+    <br>
+</P>
+<p>
+    <input type="checkbox"> Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies
+    <br>
+</p>
+</fieldset>
 </form>
+<input type="submit" value="Crear cuenta">
 </body>
 </html>
